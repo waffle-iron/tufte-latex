@@ -3,9 +3,16 @@
 ## Unreleased
 ### Added
 * CHANGELOG.md to document changes in the project.
+* Project changes from git diff.
+* Treat i.e., and e.g. as full fledged citizens of the English language.
 
 ### Changed
 * Merged History.txt with CHANGELOG.md.
+* Update UK TeX FAQ link.
+* Fixed bug with `\frontmatter` and `\mainmatter` and `openany` option.
+
+### Removed
+* Obsolete `usenames` option from `xcolor` package.
 
 ## 3.5.2 - 2015-06-21
 ### Added
@@ -18,7 +25,7 @@
 ## 3.5.0 - 2009-12-11
 ### Added
 * Added a `[nohyper]` document class option that suppresses loading of the
-  hyperref package.
+  `hyperref` package.
 * Added three commands to modify the positioning of the captions.
 * Now automatically recalculates the lengths in case you've modified the page
   size or margins.
@@ -37,7 +44,7 @@
 * Created a Tufte-book document class.
 * Added optional offset parameter to sienotes, cite, etc. so their vertical
   position can be adjusted manually.
-* Added support for the `bidi' package with XeLateX.
+* Added support for the `bidi` package with XeLateX.
 
 ### Changed
 * Adjusted font sizes and spacing to more closely reflect those used in
@@ -46,7 +53,7 @@
 
 ## 2.0.1 - 2008-11-16
 ### Changed
-* Now works with footmisc version > 5.4.
+* Now works with `footmisc` version > 5.4.
 
 ## 2.0.0 - 2008-06-06
 ### Added
@@ -73,30 +80,30 @@
 
 ## 1.2.2 - 2008-02-09
 ### Added
-* Use footmisc package to set \footnotes as sidenotes
-* Use natbib package to set bibliography entries as sidenotes
+* Use `footmisc` package to set `\footnotes` as sidenotes.
+* Use `natbib` package to set bibliography entries as sidenotes.
 
 ## 1.2.1 - 2007-10-21
 ### Added
-* To assure existing \footnotes become \sidenotes
+* To assure existing `\footnotes` become `\sidenotes`.
 
 ## 1.2.0 - 2007-10-20
 ### Added
-* Added a4paper option (Kevin Godby)
-* Have \margin{note,figure,table} use \@tufteh@marginfont
-* `\@tufteh@overhang` typo in `figure*`, `table*`, and fullwidth environments (Kevin Godby)
+* Added `a4paper` option (Kevin Godby).
+* Have \margin{note,figure,table} use \@tufteh@marginfont.
+* `\@tufteh@overhang` typo in `figure*`, `table*`, and `fullwidth` environments (Kevin Godby).
 
 ## 1.1.0 - 2007-10-18
 ### Added
 * To add some missing environments and commands:
-  * sidenote
-  * marginnote (no mark)
-  * marginfigure/table
-  * text-width figure/table (figure/table)
-  * page-width figure/table (figure*/table*)
-  * page-width environment (for custom minipage displays)
-* To namespace raggedright
-* To add margin font hook
+  * `sidenote`.
+  * `marginnote` (no mark).
+  * `marginfigure`/`margintable`.
+  * text-width figure/table (`figure`/`table`).
+  * page-width figure/table (`figure*/table*`).
+  * page-width environment (for custom minipage displays).
+* To namespace `raggedright`.
+* To add margin font hook.
 
 ## 1.0.1 - 2007-09-24
 ### Changed
@@ -104,7 +111,7 @@
 
 ## 1.0.0 - 2007-09-24
 ### Added
-* First public release
+* First public release.
 
 ## 0.1.0 - 2004-02-04
 ### Added
