@@ -1,4 +1,4 @@
-# Change Log
+# Changelog
 
 ## Unreleased
 ### Added
@@ -9,13 +9,16 @@
 ### Changed
 * Merged History.txt with CHANGELOG.md.
 * Update UK TeX FAQ link.
+
+### Fixed
 * Fixed bug with `\frontmatter` and `\mainmatter` and `openany` option.
 
 ### Removed
+* History.txt in place of CHANGELOG.md.
 * Obsolete `usenames` option from `xcolor` package.
 
 ## 3.5.2 - 2015-06-21
-### Added
+### Fixed
 * A variety of bug fixes and small improvements.
 
 ## 3.5.1 - 2010-03-28
@@ -24,7 +27,7 @@
 
 ## 3.5.0 - 2009-12-11
 ### Added
-* Added a `[nohyper]` document class option that suppresses loading of the
+* Added a `nohyper` document class option that suppresses loading of the
   `hyperref` package.
 * Added three commands to modify the positioning of the captions.
 * Now automatically recalculates the lengths in case you've modified the page
@@ -37,6 +40,8 @@
 * The `\caption` command now accepts an optional vertical offset argument.
 * Added the `\morefloats` command that works in the same way the morefloats
   package does.
+
+### Fixed
 * Fixed a number of bugs.
 
 ## 3.0.0 - 2009-05-17
@@ -69,14 +74,18 @@
 * Added `justified` option to set the text fully justified.
 
 ### Changed
-* Fixed the alignment of sidenote numbers.
 * Rewrote sample-handout to illustrate the tufte-handout usage and serve as an
   example of its features.
 
+### Fixed
+* Fixed the alignment of sidenote numbers.
+
 ## 1.2.3 - 2008-02-11
 ### Changed
-* To remove References section from sample-handout.
 * Updated README.txt
+
+### Removed
+* To remove References section from sample-handout.
 
 ## 1.2.2 - 2008-02-09
 ### Added
