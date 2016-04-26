@@ -3,21 +3,35 @@
 ## Unreleased
 ### Added
 * CHANGELOG.md to document changes in the project.
-* Project changes from git diff.
-* Treat i.e., and e.g. as full fledged citizens of the English language.
+* Project changes not already included in History.txt from git diff.
 
 ### Changed
 * Merged History.txt with CHANGELOG.md.
-* Update UK TeX FAQ link.
-
-### Fixed
-* Fixed bug with `\frontmatter` and `\mainmatter` and `openany` option.
 
 ### Removed
 * History.txt in place of CHANGELOG.md.
-* Obsolete `usenames` option from `xcolor` package.
+
+## 3.5.5 - 2016-01-26
+### Added
+* Treat i.e., and e.g. as full fledged citizens of the English language.
+
+### Changed
+* Update UK TeX FAQ link.
+
+## 3.5.4 - 2015-12-13
+### Removed
+* Obsolete `usenames` option from [`xcolor`](https://www.ctan.org/pkg/xcolor)
+  package.
+
+## 3.5.3 - 2015-06-30
+### Fixed
+* Fixed bug with `\frontmatter`, `\mainmatter` and `openany` option.
 
 ## 3.5.2 - 2015-06-21
+### Changed
+* Converted README to Markdown.
+* Updated URLs.
+
 ### Fixed
 * A variety of bug fixes and small improvements.
 
@@ -28,18 +42,16 @@
 ## 3.5.0 - 2009-12-11
 ### Added
 * Added a `nohyper` document class option that suppresses loading of the
-  `hyperref` package.
+ [`hyperref`](https://www.ctan.org/pkg/hyperref) package.
 * Added three commands to modify the positioning of the captions.
-* Now automatically recalculates the lengths in case you've modified the page
-  size or margins.
+* Now automatically recalculates the lengths in case you've modified the page size or margins.
 * Added a B5 paper size.
 * The justification of sidenotes, margin notes, captions, and citations can be
   set individually now.
-* The font and style of sidenotes, margin notes, captions, and citations can
-  now be set individually.
+* The font and style of sidenotes, margin notes, captions, and citations can now
+  be set individually.
 * The `\caption` command now accepts an optional vertical offset argument.
-* Added the `\morefloats` command that works in the same way the morefloats
-  package does.
+* Added the `\morefloats` command that works in the same way the [`morefloats`](https://www.ctan.org/pkg/morefloats) package does.
 
 ### Fixed
 * Fixed a number of bugs.
@@ -47,8 +59,7 @@
 ## 3.0.0 - 2009-05-17
 ### Added
 * Created a Tufte-book document class.
-* Added optional offset parameter to sienotes, cite, etc. so their vertical
-  position can be adjusted manually.
+* Added optional `offset` parameter to sidenotes, cite, etc. so their vertical position can be adjusted manually.
 * Added support for the `bidi` package with XeLateX.
 
 ### Changed
@@ -58,7 +69,7 @@
 
 ## 2.0.1 - 2008-11-16
 ### Changed
-* Now works with `footmisc` version > 5.4.
+* Now works with [`footmisc`](https://www.ctan.org/pkg/footmisc) version > 5.4.
 
 ## 2.0.0 - 2008-06-06
 ### Added
@@ -89,8 +100,8 @@
 
 ## 1.2.2 - 2008-02-09
 ### Added
-* Use `footmisc` package to set `\footnotes` as sidenotes.
-* Use `natbib` package to set bibliography entries as sidenotes.
+* Use [`footmisc`](https://www.ctan.org/pkg/footmisc) package to set `\footnotes` as sidenotes.
+* Use [`natbib`](https://www.ctan.org/pkg/natbib) package to set bibliography entries as sidenotes.
 
 ## 1.2.1 - 2007-10-21
 ### Added
