@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/alecshaw/tufte-latex.png?label=ready&title=Ready)](https://waffle.io/alecshaw/tufte-latex)
 Hi,
 
 Welcome to the beginnings of Tufte LaTeX package to help you
